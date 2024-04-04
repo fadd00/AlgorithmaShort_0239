@@ -55,7 +55,9 @@ if (i == n)// step 5
     cin >> ch;
 }while ((ch == 'y') || ch == 'y');
 }
-
+void display(){
+    
+}
 
 int main()
 {
