@@ -8,19 +8,18 @@ int i;
 void input(){
 
 }
-void LinearShort(){
+void LinearSearch(){
     char ch;
     int ctr;
     int item;
 
-do
-{
+do{
     cout << "\nEnter the element you want to search: "; // step 1
     cin >> item;
 
     ctr = 0;
     i = 0; //step 2
-} while (i < n)// step 3
+    while (i < n)// step 3
 {
     ctr++;
     if (arr[i] == item)
@@ -31,15 +30,13 @@ do
     i++;//step 4
 }
 if (i == n)// step 5
-{
+
     cout << "\n" << item << "not found in the array\n";
     cout << "nNumber of comparison: " << ctr << endl;
 
     cout << "\nContinue Search (y/n) : ";
     cin >> ch;
 }while ((ch == 'y') || ch == 'y');
-
-
 }
 
 
