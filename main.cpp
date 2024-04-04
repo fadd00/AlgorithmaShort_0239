@@ -11,6 +11,12 @@ void LinearShort(){
     int ctr;
     int item;
 }
+do
+{
+    cout << "\nEnter the element you want to search: "; // step 1
+} while (/* condition */);
+
+
 int main()
 {
     return 0;
