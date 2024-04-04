@@ -18,7 +18,7 @@ do
 
     ctr = 0;
     i = 0; //step 2
-} while (/* condition */);
+} while (i < n);// step 3
 
 
 int main()
