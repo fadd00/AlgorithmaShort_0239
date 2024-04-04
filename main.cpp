@@ -45,28 +45,21 @@ do{
         break;
     }
     i++;//step 4
-}
-if (i == n)// step 5
-
+}if (i == n)// step 5
     cout << "\n" << item << "not found in the array\n";
     cout << "nNumber of comparison: " << ctr << endl;
 
     cout << "\nContinue Search (y/n) : ";
     cin >> ch;
 }while ((ch == 'y') || ch == 'y');
-}
-void display(){
+}void display(){
     cout << "array elements are: ";
     for (i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
     cout << endl;
     }
-    
-}
-
-int main()
-{
+}int main(){
     input();
     LinearSearch();
     display();
