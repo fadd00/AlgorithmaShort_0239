@@ -6,7 +6,7 @@ int arr[20];
 int n;
 int i;
 void input(){
-    
+
 }
 void LinearShort(){
     char ch;
@@ -20,7 +20,7 @@ do
 
     ctr = 0;
     i = 0; //step 2
-} while (i < n);// step 3
+} while (i < n)// step 3
 {
     ctr++;
     if (arr[i] == item)
@@ -37,7 +37,8 @@ if (i == n)// step 5
 
     cout << "\nContinue Search (y/n) : ";
     cin >> ch;
-}
+}while ((ch == 'y') || ch == 'y');
+
 
 }
 
