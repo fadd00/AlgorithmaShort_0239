@@ -30,7 +30,11 @@ do
 }
 if (i == n)// step 5
 {
-    /* code */
+    cout << "\n" << item << "not found in the array\n";
+    cout << "nNumber of comparison: " << ctr << endl;
+
+    cout << "\nContinue Search (y/n) : ";
+    cin >> ch;
 }
 
 }
